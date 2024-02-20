@@ -6,7 +6,7 @@ class DonutTile extends StatelessWidget {
   final donutColor;
   final String imageName;
 
-  final double borderRadius = 12;
+  final double borderRadius = 18;
 
   const DonutTile({
     super.key,
@@ -41,7 +41,8 @@ class DonutTile extends StatelessWidget {
                       '\$$donutPrice',
                       style: TextStyle(
                           color: donutColor[800], fontWeight: FontWeight.bold),
-                    )),
+                    )
+                    ),
               ],
             ),
 

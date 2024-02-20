@@ -47,8 +47,9 @@ class _HomePageState extends State<HomePage> {
     return DefaultTabController(
       length: myTabs.length,
       child: Scaffold(
+        backgroundColor: Color.fromARGB(255, 230, 168, 188),
         appBar: AppBar(
-          backgroundColor: Colors.transparent,
+          backgroundColor: Color.fromARGB(255, 206, 44, 98),
           leading: Padding(
             padding: EdgeInsets.only(left: 24.0),
             child: IconButton(
